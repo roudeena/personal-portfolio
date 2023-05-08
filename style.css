@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #BE3144;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+.navbar li{
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+.intro{
+    
+    background-color: #242527;
+    height: 100vh;
+    align-content: center;
+    padding-top: 50px;
+}
+.intro h1{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.intro p{
+    color:#BE3144 ;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: italic;
+}
