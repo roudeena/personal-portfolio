@@ -40,3 +40,83 @@
     text-align: center;
     text-decoration: italic;
 }
+#projects{
+    background-color: #45567D;
+    flex-direction: row;
+
+    
+}
+#projects h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px ;
+    font-size: 40px;
+}
+.project{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    background-color: #45567D;
+}
+.project img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+}
+.project p {
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+   
+}
+#work-together{
+    background-color: #303841;
+    height: 500px;
+    padding: 50px;
+}
+#work-together h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#work-together p{
+    text-align: center;
+    margin: 20px;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 40%;
+    margin: 20px auto;
+
+}
+button{
+    font-size: 22px;
+    padding: 5px;
+    background-color: #45567D;
+}
+#footer{
+    background-color:#303841 ;
+    border-top: 2px solid red;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
